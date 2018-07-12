@@ -62,10 +62,9 @@ area_of_a_circle = <your ruby Constant variable> * (radius ** 2)
 The computed Area of a Circle is 1963.4954084936207 
 ``` 
  
-Additional challenge. Can you explain what the code ```radius ** 2``` means? [Clue](https://www.ruby-forum.com/topic/76409).
+Additional challenge. Can you explain what the code ```radius ** 2``` means? What does the ```**``` ruby operator do? [Clue](https://www.ruby-forum.com/topic/76409).
 &nbsp;
  
-
 3. Given the formula for computing the **Circumference of a Circle**
 
 ![Area of a Circle formula](/images/circumference-of-a-circle.png)
