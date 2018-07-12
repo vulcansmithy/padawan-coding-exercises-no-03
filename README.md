@@ -5,27 +5,27 @@
 
  **1.2**&nbsp;&nbsp;&nbsp;Clone this remote repository to your local machine
 
- ~~~bash
+ ```bash
 $> git clone https://github.com/vulcansmithy/padawan-coding-exercises-no-03.git
-~~~
+```
 
  **1.3**&nbsp;&nbsp;&nbsp;Rename the local repository's current 'origin' to 'upstream'
 
- ~~~bash
+ ```bash
 $> git remote rename origin upstream
-~~~
+```
 
  **1.4**&nbsp;&nbsp;&nbsp;Give the local repository an 'origin' that points to your repository
 
- ~~~bash
+ ```bash
 $> git remote add origin https://github.com/KrstnP/padawan-coding-exercises-no-03.git
-~~~
+```
 
  **1.5**&nbsp;&nbsp;&nbsp;Push the local repository to your repository on github
 
- ~~~bash
+ ```bash
 $> git push origin master
-~~~
+```
 &nbsp;
 
 2. Give the formula for computing the **Area of a Circle**
@@ -40,19 +40,19 @@ A = pr^2
 
   write a program that uses a constant variable to reprsent the value of **pi**, which is **3.141592653589793**, and compute the Area of the Circle. Then display the result on the screen.
 
- ~~~ruby
+ ```ruby
 <a ruby constant variable> = 3.141592653589793
 radius = 250
 area_of_a_circle = <a ruby constant variable> * (radius ** 2)
 <ruby code to display the result to the screen>
-~~~
+```
 &nbsp;
 
  Additional challenge. Do a quick research on the internet and figure out what does this part of code above means
 
- ~~~ruby
+ ```ruby
 radius ** 2
-~~~
+```
 
  What does **\*\*** means. [Clue](https://www.ruby-forum.com/topic/76409).
 
@@ -69,78 +69,78 @@ C = pd
 
 4. Given you have a hash called **h**
 
- ~~~ruby
+ ```ruby
 h = { :key_a => 35, :key_b => 84.50, :key_c => true, :key_d => "grace" }
-~~~
+```
 write a ruby program that retrieve the value of 35 from the
 hash. Then display the retrieve value using the String interpolation. The output should looks like this
 
- ~~~
+ ```
 Retrieved the value 35 from the hash variable 'h'
-~~~  
+```  
 &nbsp;
 
 5. Given you have a hash called **h**
 
- ~~~ ruby
+ ``` ruby
 h = { :key_a => 35, :key_b => 84.50, :key_c => true, :key_d => "grace" }
-~~~
+```
 
  write a ruby program that change the value of what **:key_c** is associated with. Change it from **true** to **false**. Then output the new value of **key_c** to the screen. The output should look like below. Again, use String interpolation to display the result.
 
- ~~~
+ ```
 The new value of h[:key_c] is now false.
-~~~
+```
 &nbsp;
 
 6. Given the following key-value pair
 
- ~~~
+ ```
 key..... :first_name
 value... "Matt"
-~~~
- ~~~
+```
+ ```
 key..... :last_name
 value... "Murdock"
-~~~
- ~~~
+```
+ ```
 key..... :occupation
 value... "Lawyer"
-~~~
- ~~~
+```
+ ```
 key..... :company
 value... "Nelson and Murdock Attorneys at Law"
-~~~
- ~~~
+```
+ ```
 key..... :email1
 value... "mattDD@hellskitchen.com"
-~~~
- ~~~
+```
+ ```
 key..... :email2
 value... "mattDD@nelson_and_murdock.com"
-~~~
+```
 
  write a ruby program that contains a hash called **contact_info**. Use the above list as the values stored in the **contact_info** hash variable.
 &nbsp;
 
 7. Given the following key-value pair
 
- ~~~
+ ```
 key..... :title
 value... "The Mysterious Affair at Styles"
-~~~
- ~~~
+```
+ ```
 key..... :author
 value... "Agatha Christie"
-~~~
- ~~~
+```
+ ```
 key..... :year_published
 value... 1920
-~~~
- ~~~
+```
+ ```
 key..... :genre
 value... "Crime Novel"
-~~~
+```
 
  write a ruby program that contains a hash called **book_card**. Use the above list as the values stored in the **book_card** hash variable.
 &nbsp;
@@ -153,9 +153,9 @@ value... "Crime Novel"
 
 10. Using the hash found in exercise no. 6, write a ruby program that would iterte to each key-value pair in the hash **contact_info**. [Clue](https://docs.ruby-lang.org/en/2.0.0/Hash.html#method-i-each). The code should look like something like
 
-~~~ruby
+```ruby
 contact_info.[insert method here] do |[insert something here],[insert something here]|
  puts "key... #{[insert something here]}, value... #{[insert something here]}"
 end
-~~~
+```
 &nbsp;
