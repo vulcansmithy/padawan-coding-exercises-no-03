@@ -33,6 +33,7 @@ $> git push origin master
 \\[
 A = pr^2
 \\]
+![Area of a Circle formula](/images/area-of-a-circle-formula.png)
 &nbsp;
  wherein,
  &nbsp;&nbsp;&nbsp;&nbsp;**p**&nbsp;&nbsp;represent the value of Pi, **3.141592653589793**
