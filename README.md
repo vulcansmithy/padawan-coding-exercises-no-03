@@ -42,26 +42,29 @@ $> git checkout -b develop
 
 2. Give the formula for computing the **Area of a Circle**
 
-![Area of a Circle formula](/images/area-of-a-circle-formula.png)
+ ![Area of a Circle formula](/images/area-of-a-circle-formula.png)
 
-wherein, **p** represent the value of Pi, **3.141592653589793**, and **r** is the given radius.   
+ Wherein, the value **p** represent the value of Pi, or **3.141592653589793**, nd the value **r** is the given radius.   
 
-write a program that uses a constant variable to reprsent the value of **pi**, which is **3.141592653589793**, and compute the Area of the Circle. Then display the result on the screen.
+ Your challenge is to write a ruby program that uses a constant variable to reprsent the value of **pi**, and compute the Area of the Circle. Once the Area o the Circle is computed, display the result on the screen.
 
-```ruby
-<a ruby constant variable> = 3.141592653589793
+ Your code should look like something like this
+
+ ```ruby
+<your ruby Constant variable> = 3.141592653589793
 radius = 250
-area_of_a_circle = <a ruby constant variable> * (radius ** 2)
-<ruby code to display the result to the screen>
+area_of_a_circle = <your ruby Constant variable> * (radius ** 2)
 ```
 
-Additional challenge. Do a quick research on the internet and figure out what does this part of code above means
-
-```ruby
-radius ** 2
-```
-
- What does **\*\*** means. [Clue](https://www.ruby-forum.com/topic/76409).
+ The expected output of your ruby program should look like this
+ 
+ ```ruby
+The computed Area of a Circle is 1963.4954084936207 
+``` 
+ 
+Additional challenge. Can you explain what the code ```radius ** 2``` means? [Clue](https://www.ruby-forum.com/topic/76409).
+&nbsp;
+ 
 
 3. Given the formula for computing the **Circumference of a Circle**
 
