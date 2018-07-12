@@ -1,39 +1,39 @@
 ## Coding Exercises No. 03
-1. In this exercise, I want you to clone a git repo and prepare your local repository.
+1. In this exercise, I want you to clone a remote git repo and prepare your local git repository that will contain all of the coding exercises.
 
- Create a new repository at github.com. Give it name of **padawan-coding-exercises-no-03**. Don't initialize it with a README, .gitignore, or license
+ **Step 1:** Create a new repository at github.com. Give it name of **padawan-coding-exercises-no-03**. Don't initialize it with a README, .gitignore, or license
 
- Clone this remote repository to your local machine
+ **Step 2:** Clone this remote repository to your local machine
 
  ```bash
 $> git clone https://github.com/vulcansmithy/padawan-coding-exercises-no-03.git
 ```
  
- Change directory to the cloned git repo
+ **Step 3:** Change directory to the cloned git repo
 
  ```bash
 $> cd padawan-coding-exercises-no-03
 ```
  
- Rename the local repository's current 'origin' to 'upstream'
+ **Step 4:** Rename the local repository's current 'origin' to 'upstream'
 
  ```bash
 $> git remote rename origin upstream
 ```
 
- Give the local repository an 'origin' that points to your repository
+ **Step 5:** Give the local repository an 'origin' that points to your repository
 
  ```bash
 $> git remote add origin https://github.com/KrstnP/padawan-coding-exercises-no-03.git
 ```
 
- Push the local repository to your repository on github
+ **Step 6:** Push the local repository to your repository on github
 
  ```bash
 $> git push origin master
 ```
 
- Create a new git branch called **develop**
+ **Step 7:** Create a new git branch called **develop**
 
  ```bash
 $> git checkout -b develop
