@@ -26,7 +26,6 @@ $> git remote add origin https://github.com/KrstnP/padawan-coding-exercises-no-0
  ```bash
 $> git push origin master
 ```
-&nbsp;
 
 2. Give the formula for computing the **Area of a Circle**
 &nbsp;
