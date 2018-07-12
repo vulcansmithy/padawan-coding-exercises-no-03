@@ -1,29 +1,28 @@
 ## Coding Exercises No. 03
 1. In this exercise, I want you to clone a git repo and prepare your local repository.
 
- **1.1**&nbsp;&nbsp;&nbsp;Create a new repository at github.com. Give it name of **padawan-coding-exercises-no-03**. Don't initialize it with a README, .gitignore, or license
+Create a new repository at github.com. Give it name of **padawan-coding-exercises-no-03**. Don't initialize it with a README, .gitignore, or license
 
- **1.2**&nbsp;&nbsp;&nbsp;Clone this remote repository to your local machine
+Clone this remote repository to your local machine
 
- ```bash
+```bash
 $> git clone https://github.com/vulcansmithy/padawan-coding-exercises-no-03.git
 ```
 
- **1.3**&nbsp;&nbsp;&nbsp;Rename the local repository's current 'origin' to 'upstream'
+Rename the local repository's current 'origin' to 'upstream'
 
- ```bash
+```bash
 $> git remote rename origin upstream
 ```
 
- **1.4**&nbsp;&nbsp;&nbsp;Give the local repository an 'origin' that points to your repository
+Give the local repository an 'origin' that points to your repository
 
- ```bash
+```bash
 $> git remote add origin https://github.com/KrstnP/padawan-coding-exercises-no-03.git
 ```
+Push the local repository to your repository on github
 
- **1.5**&nbsp;&nbsp;&nbsp;Push the local repository to your repository on github
-
- ```bash
+```bash
 $> git push origin master
 ```
 
@@ -31,11 +30,9 @@ $> git push origin master
 
 ![Area of a Circle formula](/images/area-of-a-circle-formula.png)
 
-wherein,
-   **p**&nbsp;&nbsp;represent the value of Pi, **3.141592653589793**  
-   **r**&nbsp;&nbsp;is a given radius  
+wherein, **p** represent the value of Pi, **3.141592653589793**, and **r** is the given radius.   
 
-  write a program that uses a constant variable to reprsent the value of **pi**, which is **3.141592653589793**, and compute the Area of the Circle. Then display the result on the screen.
+write a program that uses a constant variable to reprsent the value of **pi**, which is **3.141592653589793**, and compute the Area of the Circle. Then display the result on the screen.
 
  ```ruby
 <a ruby constant variable> = 3.141592653589793
