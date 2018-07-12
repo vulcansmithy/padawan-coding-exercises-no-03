@@ -28,15 +28,12 @@ $> git push origin master
 ```
 
 2. Give the formula for computing the **Area of a Circle**
-&nbsp;
-\\[
-A = pr^2
-\\]
+
 ![Area of a Circle formula](/images/area-of-a-circle-formula.png)
-&nbsp;
- wherein,
- &nbsp;&nbsp;&nbsp;&nbsp;**p**&nbsp;&nbsp;represent the value of Pi, **3.141592653589793**
- &nbsp;&nbsp;&nbsp;&nbsp;**r**&nbsp;&nbsp;is a given radius
+
+wherein,
+   **p**&nbsp;&nbsp;represent the value of Pi, **3.141592653589793**  
+   **r**&nbsp;&nbsp;is a given radius  
 
   write a program that uses a constant variable to reprsent the value of **pi**, which is **3.141592653589793**, and compute the Area of the Circle. Then display the result on the screen.
 
