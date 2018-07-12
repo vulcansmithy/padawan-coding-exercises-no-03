@@ -3,12 +3,19 @@
 
  Create a new repository at github.com. Give it name of **padawan-coding-exercises-no-03**. Don't initialize it with a README, .gitignore, or license
 
- 1.1 Clone this remote repository to your local machine
+ Clone this remote repository to your local machine
 
  ```bash
 $> git clone https://github.com/vulcansmithy/padawan-coding-exercises-no-03.git
 ```
-1.2 Rename the local repository's current 'origin' to 'upstream'
+ 
+ Change directory to the cloned git repo
+
+ ```bash
+$> cd padawan-coding-exercises-no-03
+```
+ 
+ Rename the local repository's current 'origin' to 'upstream'
 
  ```bash
 $> git remote rename origin upstream
@@ -19,10 +26,17 @@ $> git remote rename origin upstream
  ```bash
 $> git remote add origin https://github.com/KrstnP/padawan-coding-exercises-no-03.git
 ```
+
  Push the local repository to your repository on github
 
  ```bash
 $> git push origin master
+```
+
+ Create a new git branch called **develop**
+
+ ```bash
+$> git checkout -b develop
 ```
 &nbsp;
 
