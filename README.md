@@ -1,32 +1,31 @@
 ## Coding Exercises No. 03
-1.  In this exercise, I want you to clone a git repo and prepare your local repository.
+1. In this exercise, I want you to clone a git repo and prepare your local repository.
 
-Create a new repository at github.com. Give it name of **padawan-coding-exercises-no-03**. Don't initialize it with a README, .gitignore, or license
+ Create a new repository at github.com. Give it name of **padawan-coding-exercises-no-03**. Don't initialize it with a README, .gitignore, or license
 
-Clone this remote repository to your local machine
+ 1.1 Clone this remote repository to your local machine
 
-```bash
+ ```bash
 $> git clone https://github.com/vulcansmithy/padawan-coding-exercises-no-03.git
 ```
+1.2 Rename the local repository's current 'origin' to 'upstream'
 
-Rename the local repository's current 'origin' to 'upstream'
-
-```bash
+ ```bash
 $> git remote rename origin upstream
 ```
 
-Give the local repository an 'origin' that points to your repository
+ Give the local repository an 'origin' that points to your repository
 
-```bash
+ ```bash
 $> git remote add origin https://github.com/KrstnP/padawan-coding-exercises-no-03.git
 ```
-Push the local repository to your repository on github
+ Push the local repository to your repository on github
 
-```bash
+ ```bash
 $> git push origin master
 ```
 
-2.  Give the formula for computing the **Area of a Circle**
+2. Give the formula for computing the **Area of a Circle**
 
 ![Area of a Circle formula](/images/area-of-a-circle-formula.png)
 
@@ -49,7 +48,7 @@ radius ** 2
 
  What does **\*\*** means. [Clue](https://www.ruby-forum.com/topic/76409).
 
-3.  Given the formula for computing the **Circumference of a Circle**
+3. Given the formula for computing the **Circumference of a Circle**
 
 ![Area of a Circle formula](/images/circumference-of-a-circle.png)
 
@@ -57,7 +56,7 @@ wherein, **p** represent the value of Pi, **3.141592653589793**, and **d** is a 
 
 write a program that uses a constant variable to reprsent the value of **pi**, which is **3.141592653589793**, and compute the Circumference of a Circle. Then display the result on the screen.
 
-4.  Given you have a hash called **h**
+4. Given you have a hash called **h**
 
 ```ruby
 h = { :key_a => 35, :key_b => 84.50, :key_c => true, :key_d => "grace" }
@@ -70,7 +69,7 @@ hash. Then display the retrieve value using the String interpolation. The output
 Retrieved the value 35 from the hash variable 'h'
 ```  
 
-5.  Given you have a hash called **h**
+5. Given you have a hash called **h**
 
 ```ruby
 h = { :key_a => 35, :key_b => 84.50, :key_c => true, :key_d => "grace" }
@@ -82,7 +81,7 @@ write a ruby program that change the value of what **:key_c** is associated with
 The new value of h[:key_c] is now false.
 ```
 
-6.  Given the following key-value pair
+6. Given the following key-value pair
 
 ```
 key..... :first_name
@@ -106,7 +105,7 @@ value... "mattDD@nelson_and_murdock.com"
 
  write a ruby program that contains a hash called **contact_info**. Use the above list as the values stored in the **contact_info** hash variable.
 
-7.  Given the following key-value pair
+7. Given the following key-value pair
 
 ```
 key..... :title
@@ -124,11 +123,11 @@ value... "Crime Novel"
 
 write a ruby program that contains a hash called **book_card**. Use the above list as the values stored in the **book_card** hash variable.
 
-8.  Using the hash given in exercise no. 5, write a program that delete or remove a specific key-value pair stored in the hash **h**. The one that you're going to remove is the **:key_c**. Once the key-value pair is remove, display to the screen the update content of the hash **h**. [Clue](https://docs.ruby-lang.org/en/2.0.0/Hash.html).
+8. Using the hash given in exercise no. 5, write a program that delete or remove a specific key-value pair stored in the hash **h**. The one that you're going to remove is the **:key_c**. Once the key-value pair is remove, display to the screen the update content of the hash **h**. [Clue](https://docs.ruby-lang.org/en/2.0.0/Hash.html).
 
-9.  Using the hash given in exercise no. 6, write a program that would display all the **keys** used in hash **contact_info**. To retrieve the **keys** used, there is a function or method that you can call. Do a research on internet to figure out what is this method or function that you can use. [Clue](https://docs.ruby-lang.org/en/2.0.0/Hash.html#method-i-keys).
+9. Using the hash given in exercise no. 6, write a program that would display all the **keys** used in hash **contact_info**. To retrieve the **keys** used, there is a function or method that you can call. Do a research on internet to figure out what is this method or function that you can use. [Clue](https://docs.ruby-lang.org/en/2.0.0/Hash.html#method-i-keys).
 
-10.  Using the hash found in exercise no. 6, write a ruby program that would iterte to each key-value pair in the hash **contact_info**. [Clue](https://docs.ruby-lang.org/en/2.0.0/Hash.html#method-i-each). The code should look like something like
+10. Using the hash found in exercise no. 6, write a ruby program that would iterte to each key-value pair in the hash **contact_info**. [Clue](https://docs.ruby-lang.org/en/2.0.0/Hash.html#method-i-each). The code should look like something like
 
 ```ruby
 contact_info.[insert method here] do |[insert something here],[insert something here]|
