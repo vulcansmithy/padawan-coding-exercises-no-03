@@ -24,6 +24,7 @@ $> git remote add origin https://github.com/KrstnP/padawan-coding-exercises-no-0
  ```bash
 $> git push origin master
 ```
+&nbsp;
 
 2. Give the formula for computing the **Area of a Circle**
 
@@ -52,6 +53,7 @@ radius ** 2
 
 ![Area of a Circle formula](/images/circumference-of-a-circle.png)
 
+$A = PD$
 wherein, **p** represent the value of Pi, **3.141592653589793**, and **d** is a given diameter of a circle.
 
 write a program that uses a constant variable to reprsent the value of **pi**, which is **3.141592653589793**, and compute the Circumference of a Circle. Then display the result on the screen.
